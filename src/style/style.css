@@ -334,6 +334,10 @@ p {
     justify-content: space-between;
 }
 
+.staffer > div {
+    width: 50%;
+}
+
 .staffer .staff {
     display: flex;
     flex-wrap: wrap;
@@ -342,11 +346,22 @@ p {
 
 .staffer .staff-image {
     margin-right: 17px;
+    border-radius: 100%;
+    border: solid 2px white;
+    width: 68px;
+    height: 68px;
+    overflow: hidden;
 }
 
 .staffer .staff-image img {
-    width: 68px;
-}
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 4px solid transparent;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;}
 
 .staffer h4 {
     font-family: var(--bebas);

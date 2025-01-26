@@ -7,6 +7,8 @@ version "1.0.0"
 
 -- Definisce quale file HTML usare come loading screen
 loadscreen "index.html"
+loadscreen_manual_shutdown "yes"
+loadscreen_cursor 'yes'
 
 -- Elenca tutti i file necessari per il loading screen
 files {
@@ -43,4 +45,4 @@ files {
 }
 
 -- Script lato client per inviare aggiornamenti di progresso
-client_script "client.lua"
+client_script 'src/js/scripts.js'

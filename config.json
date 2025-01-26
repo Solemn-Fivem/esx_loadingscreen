@@ -2,19 +2,19 @@
     "socials": {
         "discord": {
             "name": "Discord",
-            "url": "https://discord.gg/solemn"
+            "url": "https://solemn.tebex.io/"
         },
         "instagram": {
             "name": "Instagram",
-            "url": "https://instagram.com/solemn"
+            "url": "https://solemn.tebex.io/"
         },
         "youtube": {
             "name": "Youtube",
-            "url": "https://youtube.com/solemn"
+            "url": "https://solemn.tebex.io/"
         },
         "tiktok": {
             "name": "TikTok",
-            "url": "https://tiktok.com/solemn"
+            "url": "https://solemn.tebex.io/"
         }
     },
     "tips": [
@@ -22,5 +22,42 @@
         "Ogni tanto controlla il nostro sito per vedere le novità!",
         "Solemn è il miglior store di Fivem, non c'è dubbio!",
         "Scarica anche tu la loading screen, è gratuita!"
-    ]
+    ],
+    "patch_description": "Qui puoi trovare tutte le informazioni riguardanti l'ultimo aggiornamento del server",
+    "option_description": "Gestisci il volume della musica di sottofondo",
+    "staff_description": "Il nostro staff è sempre disponibile per aiutarti, non esitare a contattarci su discord!",
+    "staff": [
+        {
+            "name": "Mattz",
+            "discord": "mattz2188",
+            "role": "Owner",
+            "image": "https://solture.s3.eu-west-3.amazonaws.com/image1.png"
+        },
+        {
+            "name": "Polliog",
+            "discord": "polliog",
+            "role": "Owner",
+            "image": "https://solture.s3.eu-west-3.amazonaws.com/image2.png"
+        },
+        {
+            "name": "LakLaka",
+            "discord": "laka7761",
+            "role": "Helper",
+            "image": "https://solture.s3.eu-west-3.amazonaws.com/image4.png"
+        },
+        {
+            "name": "Kratess",
+            "discord": "kratess.",
+            "role": "Helper",
+            "image": "https://solture.s3.eu-west-3.amazonaws.com/image3.png"
+        }
+    ],
+    "patch": {
+        "version": "1.0.0",
+        "changelog": [
+            "Aggiunto il sistema di patch, ora puoi vedere le novità!",
+            "Aggiunto il sistema di tips, ora puoi vedere i consigli del giorno!",
+            "Aggiunto il sistema di socials, ora puoi vedere i nostri social!"
+        ]
+    }
 }
