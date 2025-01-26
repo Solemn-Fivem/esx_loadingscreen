@@ -1,0 +1,290 @@
+<html lang="en">
+
+<head>
+    <!-- da rimuovere -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/style/animations.css">
+    <link rel="stylesheet" href="./src/style/style.css">
+    <link rel="stylesheet" href="./src/style/fonts.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous">
+        </script>
+    <script src="./src/js/scripts.js"></script>
+</head>
+
+<body>
+    <!-- Aggiungi il tuo file audio -->
+    <!-- preload="auto" cerca di caricare in anticipo il file; loop se vuoi che la musica continui senza interruzioni -->
+    <audio id="background-music" src="./src/music/music.mp3" preload="auto" autoplay loop></audio>
+
+    <!-- Background -->
+    <img id="background" src="./src/images/background.png">
+
+    <main>
+        <!-- Background images -->
+        <img id="bullet-1" src="./src/images/bullet1.png">
+        <img id="bullet-2" src="./src/images/bullet2.png">
+        <img id="background-player" src="./src/images/background-player.png">
+        <div id="background-player2-container">
+            <img id="background-player2" src="./src/images/ellipse.png">
+        </div>
+        <img id="particle1" src="./src/images/particle1.png">
+        <img id="particle2" src="./src/images/particle2.png">
+
+        <!-- Colonna sinistra -->
+        <div class="col-left">
+            <div class="container-top">
+                <!-- Social -->
+                <div class="socials-container">
+                    <!-- Instagram -->
+                    <a id="instagram" class="socials" href="#" target="_blank">
+                        <img src="./src/images/instagram.png">
+                    </a>
+
+                    <!-- Youtube -->
+                    <a id="youtube" class="socials" href="#" target="_blank">
+                        <img src="./src/images/youtube.png">
+                    </a>
+
+                    <!-- TikTok -->
+                    <a id="tiktok" class="socials" href="#" target="_blank">
+                        <img src="./src/images/tiktok.png">
+                    </a>
+
+                    <!-- Discord -->
+                    <a id="discord" class="socials" href="#" target="_blank">
+                        <img src="./src/images/discord.png">
+                    </a>
+                </div>
+
+                <!-- Tabs -->
+                <div class="tabs-container">
+                    <!-- Navigazione -->
+                    <div class="nav">
+                        <button id="tab-patch" class="active">
+                            Patch
+                        </button>
+
+                        <button id="tab-staff">
+                            Staff
+                        </button>
+
+                        <button id="tab-option">
+                            Opzioni
+                        </button>
+                    </div>
+
+                    <!-- Contenuto -->
+                    <!-- Patch -->
+                    <div class="tabs active" data-tab="tab-patch">
+                        <h2>Patch notes</h2>
+                        <div class="highlight"></div>
+
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor..
+                        </p>
+
+                        <div class="patch-content">
+                            <!-- Title -->
+                            <div class="title">
+                                <h4>
+                                    Patch
+                                </h4>
+                                <h3>
+                                    1.0.0
+                                </h3>
+                            </div>
+                            <!-- Note -->
+                            <div class="description">
+                                <ul>
+                                    <li>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium
+                                            ligula id dui tempor sodales. Donec at arcu urna. Vivamus massa arcu,
+                                            tempus quis magna id, mollis egestas mauris.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor..
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor..
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Staff -->
+                    <div class="tabs" data-tab="tab-staff">
+                        <h2>Membri staff</h2>
+                        <div class="highlight"></div>
+
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor..
+                        </p>
+
+                        <div class="staffer">
+                            <!-- Colonna sinistra -->
+                            <div>
+                                <!-- Staff 1 -->
+                                <div class="staff" id="staff-1">
+                                    <div class="staff-image">
+                                        <img src="./src/images/staff-picture.png">
+                                    </div>
+                                    <div class="staff-label">
+                                        <h4>Mattz #2188</h4>
+                                        <h5>OWNER</h5>
+                                    </div>
+                                </div>
+
+                                <!-- Staff 2 -->
+                                <div class="staff" id="staff-1">
+                                    <div class="staff-image">
+                                        <img src="./src/images/staff-picture.png">
+                                    </div>
+                                    <div class="staff-label">
+                                        <h4>Mattz #2188</h4>
+                                        <h5>OWNER</h5>
+                                    </div>
+                                </div>
+
+                                <!-- Staff 3 -->
+                                <div class="staff" id="staff-1">
+                                    <div class="staff-image">
+                                        <img src="./src/images/staff-picture.png">
+                                    </div>
+                                    <div class="staff-label">
+                                        <h4>Mattz #2188</h4>
+                                        <h5>OWNER</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Colonna destra -->
+                            <div>
+                                <!-- Staff 1 -->
+                                <div class="staff" id="staff-1">
+                                    <div class="staff-image">
+                                        <img src="./src/images/staff-picture.png">
+                                    </div>
+                                    <div class="staff-label">
+                                        <h4>Mattz #2188</h4>
+                                        <h5>OWNER</h5>
+                                    </div>
+                                </div>
+
+                                <!-- Staff 2 -->
+                                <div class="staff" id="staff-1">
+                                    <div class="staff-image">
+                                        <img src="./src/images/staff-picture.png">
+                                    </div>
+                                    <div class="staff-label">
+                                        <h4>Mattz #2188</h4>
+                                        <h5>OWNER</h5>
+                                    </div>
+                                </div>
+
+                                <!-- Staff 3 -->
+                                <div class="staff" id="staff-1">
+                                    <div class="staff-image">
+                                        <img src="./src/images/staff-picture.png">
+                                    </div>
+                                    <div class="staff-label">
+                                        <h4>Mattz #2188</h4>
+                                        <h5>OWNER</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Opzioni -->
+                    <div class="tabs" data-tab="tab-option">
+                        <h2>Opzioni</h2>
+                        <div class="highlight"></div>
+
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor..
+                        </p>
+
+                        <div class="option-content">
+                            <div class="volume-content">
+                                <h3>
+                                    Volume
+                                </h3>
+                                <div class="slider-container">
+                                    <input type="range" min="1" max="500" value="50" class="slider" id="volume">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Colonna centrale -->
+        <div class="col-center">
+            <!-- Titolo -->
+            <div class="title">
+                <h3>In attesa del</h3>
+                <h1>Caricamento</h1>
+
+                <!-- Consigli -->
+                <div class="tips">
+                    <!-- Consiglio 1 -->
+                    <div id="tip-1">
+                        <img class="icon" src="./src/images/tips.png">
+                        <p class="description">
+                            Sapevi che se ti infili un dito nel culo non brucia?
+                            Questo e tanti altri consigli.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Player -->
+            <div>
+                <img class="player active" id="play" src="./src/images/play.png">
+                <img class="player" id="pause" src="./src/images/pause.png">
+            </div>
+
+            <!-- Loading bar -->
+            <div class="loading-bar">
+                <!-- Logo -->
+                <img id="logo-blurred" src="./src/images/logo-blurred.png">
+                <img id="logo" src="./src/images/logo-white.png">
+
+                <!-- Label -->
+                <h4>
+                    Caricamento in corso...
+                </h4>
+
+                <!-- Barra -->
+                <div id="bar">
+                    <div id="loaded-bar"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Colonna sinistra -->
+        <div class="col-right">
+            <!-- Immagine principale -->
+            <img id="main-character" class="main-character" src="./src/images/main_character3.png">
+        </div>
+    </main>
+</body>
+
+</html>
