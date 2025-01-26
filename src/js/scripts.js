@@ -1,5 +1,18 @@
 $(document).ready(function () {
 
+    // Inizializza la barra di caricamento
+    let loadedPercentage = 0;
+    $("#loaded-bar").css("width", loadedPercentage + "%");
+
+    // Ascolta i messaggi di aggiornamento del progresso dal server
+    window.addEventListener('message', function (event) {
+        const data = event.data;
+        if (data.type === "progressUpdate") {
+            loadedPercentage = data.percentage;
+            $("#loaded-bar").css("width", loadedPercentage + "%");
+        }
+    });
+
     // Carico il JSON con i suggerimenti
     $.getJSON("./config.json", function (data) {
         const tips = data.tips;             // Array con tutti i suggerimenti
